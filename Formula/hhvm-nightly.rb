@@ -45,7 +45,7 @@ class HhvmNightly < Formula
   # backwards compatible; needing to rebuild for every release is too
   # brittle
   depends_on "icu4c" => :build
-  depends_on "boost"
+  depends_on "boost" => "1.78.0_1"
   depends_on "double-conversion"
   depends_on "freetype"
   depends_on "gd"
